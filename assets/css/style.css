@@ -1,0 +1,20 @@
+.about-image {
+    border-radius: 50%;
+    margin-left: 20%;
+}
+.about-name {
+    text-align: center;
+    margin-top: 20px;
+}
+.about-links {
+    margin: 10px;
+    text-align: center;
+}
+#myImage {
+    max-width: 50%;
+    height: auto;
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+    border-radius: 50%;
+}
