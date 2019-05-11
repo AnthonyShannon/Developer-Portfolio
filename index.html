@@ -34,11 +34,17 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#contactMe">Contact</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.linkedin.com/in/anthony-shannon-b1a0b1aa/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://github.com/ashannon1990" target="_blank" role="button"><i class="fab fa-github"></i></a>
+                </li>
             </ul>
         </div>
     </nav>
     <a id="about" class="smooth"></a>
- 
+
     <div id="aboutMeDiv" class="container">
 
         <div class="col-md-12">
@@ -55,7 +61,7 @@
                             href="https://www.linkedin.com/in/anthony-shannon-b1a0b1aa/" target="_blank" role="button"
                             style="margin: 5px"><i class="fab fa-linkedin-in" style="font-size: 25px"></i></a><a
                             class="btn btn-secondary" href="https://github.com/ashannon1990" target="_blank"
-                            role="button" style="margin: 5px"><i class="fab fa-github-square"
+                            role="button" style="margin: 5px"><i class="fab fa-github"
                                 style="font-size: 25px"></i></a></p>
                 </div><!-- /.col-md-3 -->
             </div><!-- /.row -->
@@ -63,11 +69,11 @@
         </div>
     </div>
 
-    
+
 
     <a id="myWork" class="smooth"></a>
     <div id="myWorkDiv" class="container">
-            <h1 style="text-align: center">Check out some of my work.</h1>
+        <h1 style="text-align: center">Check out some of my work.</h1>
         <!-- start cards -->
         <div class="row">
             <div class="col-md-4">
@@ -75,8 +81,7 @@
                     <img src="./assets/photos/guitarguess.jpg" class="card-img-top" alt="stock photo">
                     <div class="card-body">
                         <h5 class="card-title">Word Guess Game</h5>
-                        <p class="card-text">A word guess game using Javascript. Guess what guitar company the computer
-                            is thinking of.</p>
+                        <p class="card-text">My first javascript build. Guess what guitar company the computer is thinking of.</p>
                         <a href="https://ashannon1990.github.io/Word-Guess-Game/" target="blank"
                             class="btn btn-primary">Play a game</a>
                     </div>
@@ -87,7 +92,7 @@
                     <img src="./assets/photos/parksnrec.jpg" class="card-img-top" alt="stock photo">
                     <div class="card-body">
                         <h5 class="card-title">Trivia Game</h5>
-                        <p class="card-text">A short trivia game based on the tv show Parks and Recreation.</p>
+                        <p class="card-text">A short trivia game based on the tv show Parks and Recreation.</p><br>
                         <a href="https://ashannon1990.github.io/TriviaGame/" target="blank"
                             class="btn btn-primary">Treat yo' self</a>
                     </div>
@@ -98,7 +103,7 @@
                     <img src="./assets/photos/zelda.jpg" class="card-img-top" alt="stock photo">
                     <div class="card-body">
                         <h5 class="card-title">RPG Game</h5>
-                        <p class="card-text">A battle RPG game with a Legend of Zelda theme.</p>
+                        <p class="card-text">A battle RPG game with a Legend of Zelda theme.</p><br>
                         <a href="https://ashannon1990.github.io/unit-4-game/" target="blank"
                             class="btn btn-primary">FIGHT!</a>
                     </div>
@@ -137,44 +142,48 @@
     <a id="contactMe" class="smooth"></a>
     <div class="container">
         <h1 style="text-align: center">I'm always looking for new projects to work on!</h1>
-            <form>
-              <div class="form-group">
+        <form>
+            <div class="form-group">
                 <label for="exampleFormControlInput1">Name</label>
-                <input id="contactName" type="name" class="form-control" id="exampleFormControlInput1" placeholder="Name">
-              </div>
-              <div class="form-group">
+                <input id="contactName" type="name" class="form-control" id="exampleFormControlInput1"
+                    placeholder="Name">
+            </div>
+            <div class="form-group">
                 <label for="exampleFormControlInput1">Email address</label>
-                <input id="contactEmail" type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@email.com">
-              </div>
-              <div class="form-group">
-              </div>
-              <div class="form-group">
+                <input id="contactEmail" type="email" class="form-control" id="exampleFormControlInput1"
+                    placeholder="name@email.com">
+            </div>
+            <div class="form-group">
+            </div>
+            <div class="form-group">
                 <label for="exampleFormControlTextarea1">Message</label>
                 <textarea id="contactMessage" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-              </div>
-            </form>
-            <input id="submitButton" class="btn btn-dark" type="submit" value="Submit" data-toggle="modal" data-target="#submitModal">
-            <!-- start modal -->
-           
-            <div class="modal fade" id="submitModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-              <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Thank You!</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                      <span aria-hidden="true">&times;</span>
-                    </button>
-                  </div>
-                  <div class="modal-body">
-                    Your information has been submitted. I will contact you as soon as possible.
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                  </div>
-                </div>
-              </div>
             </div>
-          </div>
+        </form>
+        <input id="submitButton" class="btn btn-dark" type="submit" value="Submit" data-toggle="modal"
+            data-target="#submitModal">
+        <!-- start modal -->
+
+        <div class="modal fade" id="submitModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Thank You!</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        Your information has been submitted. I will contact you as soon as possible.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <footer class="footer mt-auto py-3" style="text-align:center">
         <div class="container">
