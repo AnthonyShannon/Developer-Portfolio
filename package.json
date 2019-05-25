@@ -1,0 +1,22 @@
+{
+  "name": "developer-portfolio",
+  "version": "1.0.0",
+  "description": "My developer portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashannon1990/Developer-Portfolio.git"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "AShan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashannon1990/Developer-Portfolio/issues"
+  },
+  "homepage": "https://github.com/ashannon1990/Developer-Portfolio#readme"
+}
