@@ -22,6 +22,8 @@ var firebaseConfig = {
     var newEmail = $("#contactEmail").val().trim()
     console.log("Message: " + $("#contactMessage").val())
     var newMessage = $("#contactMessage").val().trim()
+    $("#contactMessage").reset()
+    $(".form-group").reset()
     database.ref().push({
       Name: newName,
       Email: newEmail,
