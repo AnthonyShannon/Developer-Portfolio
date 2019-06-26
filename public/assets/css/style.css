@@ -23,7 +23,7 @@ body {
     border-radius: 50%;
 }
 #aboutMeDiv {
-    min-height: 100vh;
+    /* min-height: 100vh; */
     margin-top: 75px;
 }
 #myWorkDiv{
@@ -39,4 +39,10 @@ html {
 }
 .modal {
     color: black;
+}
+.icons {
+    font-size: 50px
+}
+i:hover {
+    color: #13AA52
 }
