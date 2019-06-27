@@ -1,12 +1,8 @@
 body {
     background: radial-gradient(ellipse at top, #1b2735 0%, #090a0f 100%);
     color: white;
+    overflow-x: hidden;
 }
-/* .jumbotron {
-    text-align: center;
-    min-height: 100vh;
-    background-image: url("../photos/Antigua.jpg")
-} */
 .myName, .myTitle {
     background: black
 }
@@ -21,6 +17,9 @@ body {
 .about-links {
     margin: 10px;
     text-align: center;
+}
+.bio {
+    font-size: 20px;
 }
 #myImage {
     max-width: 50%;
