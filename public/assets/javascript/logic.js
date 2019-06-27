@@ -30,6 +30,6 @@ var firebaseConfig = {
     })
   })
   
-
+console.log("Why are you looking here? Well, since you're checking out my code, I figured I'd tell you that you should leave me a message at the bottom of the page.")
 
   
