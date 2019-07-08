@@ -10,7 +10,7 @@ hr {
     opacity: 0;
 }
 .about-image {
-    border-radius: 50%;
+    border-radius: 75%;
     margin-left: 20%;
 }
 .about-name {
@@ -48,6 +48,15 @@ html {
     background: none;
     margin: 5px;
 }
+.card > img {
+  box-shadow: 3px 5px 10px #fff
+}
+.btn:hover{
+  box-shadow: 2px 2px 5px #61dafb
+}
+.card > img:hover {
+  box-shadow: 3px 5px 10px #61dafb
+}
 .modal {
     color: black;
 }
@@ -55,7 +64,7 @@ html {
     font-size: 50px
 }
 i:hover {
-    color: silver;
+    color: #7F7D7E
 }
 .fab:hover {
     color: white
