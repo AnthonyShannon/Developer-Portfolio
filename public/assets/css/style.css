@@ -47,6 +47,7 @@ html {
     border: none;
     background: none;
     margin: 5px;
+    text-align: center;
 }
 .card > img {
   box-shadow: 3px 5px 10px #fff
