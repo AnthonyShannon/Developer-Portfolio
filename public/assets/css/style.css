@@ -46,7 +46,7 @@ html {
 .card {
     border: none;
     background: none;
-    margin: 5px;
+    margin: auto;
     text-align: center;
 }
 .card > img {
